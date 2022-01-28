@@ -1,0 +1,10 @@
+{
+  "name": "api-final",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npx mocha --config .mocharc.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
