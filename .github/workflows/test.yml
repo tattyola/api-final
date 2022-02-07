@@ -25,7 +25,7 @@ jobs:
       run: npm i
     - name: Run API tests
       env:
-        BASE_URL: ${{ secrets. BASE_URL }}
-        LOGIN: ${{ LOGIN }}
-	PASSWORD: ${{ PASSWORD }}
+        BASE_URL: ${{ secrets.BASE_URL }}
+        LOGIN: ${{ secrets.LOGIN }}
+	    PASSWORD: ${{ secrets.PASSWORD }}
       run: npm test
